@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(250, 250,250);
+}
+
+.container {
+  display: flex;
+   
+  align-items: center;
+  flex-direction: column;
+}
+
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+.Copyright{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  width: 100%;
+  background-color: rgb(21, 21, 80);
+  color: rgb(250, 250,250);
+  padding: 8px;
+  margin: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+  h2{
+    font-size: 30px;
+  }
+  .Copyright{
+    font-size: 10px;
+    width: 100%;
+    background-color: blue;
+    color: rgb(250, 250,250);
+    padding: 5px;
+    margin: 0px !important;
+    margin-top: 20px !important;
+    text-align: center;
+  }
+}
